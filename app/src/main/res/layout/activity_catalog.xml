@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/screen_bg"
+    android:padding="10dp"
+    tools:context=".ui.CatalogActivity">
+
+    <ListView
+        android:id="@+id/itemList"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:drawSelectorOnTop="true"/>
+
+    <LinearLayout
+        android:id="@+id/emptyView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/empty_shelf"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/no_items_msg"
+            style="@style/LabelOne"
+            android:textSize="21sp"
+            android:layout_marginTop="20dp"/>
+
+    </LinearLayout>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/btnBasket"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:contentDescription="@string/additem"
+        android:src="@drawable/ic_basket"
+        app:backgroundTint="@color/primary"
+        app:fabCustomSize="70dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:maxImageSize="30dp"
+        app:tint="@color/secondary" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/btnAddBasket"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:layout_marginBottom="8dp"
+        android:contentDescription="@string/additem"
+        android:src="@drawable/ic_add_basket"
+        android:visibility="invisible"
+        app:backgroundTint="@color/primary"
+        app:fabCustomSize="70dp"
+        app:layout_constraintBottom_toTopOf="@id/btnBasket"
+        app:layout_constraintEnd_toEndOf="@id/btnBasket"
+        app:layout_constraintStart_toStartOf="@id/btnBasket"
+        app:maxImageSize="30dp"
+        app:tint="@color/secondary" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/btnDeleteBasket"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:layout_marginBottom="8dp"
+        android:contentDescription="@string/additem"
+        android:src="@drawable/ic_delete_basket"
+        android:visibility="invisible"
+        app:backgroundTint="@color/primary"
+        app:fabCustomSize="70dp"
+        app:layout_constraintBottom_toTopOf="@id/btnAddBasket"
+        app:layout_constraintEnd_toEndOf="@id/btnBasket"
+        app:layout_constraintStart_toStartOf="@id/btnBasket"
+        app:maxImageSize="30dp"
+        app:tint="@color/secondary" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

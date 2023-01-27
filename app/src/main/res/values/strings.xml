@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">InventoryApp</string>
+    <string name="inventory_management">Inventory Management</string>
+    <string name="insert_item">Insert Item</string>
+    <string name="update_item">Update Item</string>
+
+    <string name="additem">Add Item</string>
+    <string name="item_image">Item Image</string>
+    <string name="slash">/</string>
+
+    <string name="blank"> </string>
+    <string name="out_of_stock">Out of stock</string>
+    <string name="about_to_run_out">About to run out</string>
+    <string name="about_to_expire">About to expire</string>
+    <string name="expired">Expired</string>
+    <string name="filled">Filled</string>
+    <string name="name">Name</string>
+    <string name="image_url">Image Url</string>
+    <string name="shelf">Shelf</string>
+    <string name="shelf_code">Shelf code</string>
+    <string name="status">Status</string>
+    <string name="quantity">Quantity</string>
+    <string name="current_quantity">Current Quantity</string>
+    <string name="max_quantity">Max Quantity</string>
+    <string name="price">Price</string>
+
+    <string name="insert">Insert</string>
+    <string name="update">Update</string>
+    <string name="cancel">Cancel</string>
+    <string name="delete">Delete</string>
+    <string name="delete_item">Delete Item</string>
+    <string name="discard_change">Discard</string>
+
+    <string name="error_saving_item">Error saving item</string>
+    <string name="item_saved">Item saved</string>
+    <string name="deletion_failed">Deletion failed, it\'s empty here</string>
+    <string name="deletion_success">Deletion success</string>
+    <string name="update_failed">Update failed</string>
+    <string name="update_success">Update success</string>
+    <string name="no_items_msg">There are currently no items yet</string>
+    <string name="field_cannot_be_empty">%s cannot be empty!</string>
+    <string name="quantity_error">Current cannot be greater than the max capacity!</string>
+
+    <string name="discard_dialog_title">Confirm Discard Changes</string>
+    <string name="discard_dialog_message">Are you sure you want to discard all your changes?</string>
+    <string name="delete_dialog_title">Confirm Deletion</string>
+    <string name="delete_dialog_message">Are you sure you want to delete this item?</string>
+    <string name="upload">Upload</string>
+    <string name="current">Current</string>
+    <string name="maximum">Maximum</string>
+</resources>

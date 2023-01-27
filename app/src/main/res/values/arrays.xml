@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="array_status_options">
+        <item>@string/blank</item>
+        <item>@string/out_of_stock</item>
+        <item>@string/about_to_run_out</item>
+        <item>@string/about_to_expire</item>
+        <item>@string/expired</item>
+        <item>@string/filled</item>
+    </string-array>
+</resources>

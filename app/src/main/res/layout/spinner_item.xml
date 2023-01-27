@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/LabelOne"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingHorizontal="14dp"
+    android:paddingVertical="5dp"
+    tools:text="Out of stock"
+    android:textSize="20sp"
+    android:textStyle="normal">
+
+</TextView>
