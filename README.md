@@ -1,4 +1,4 @@
-# go-to-inventory-app
+# Go-to Inventory App
 Allows stockers to manage and keep track of food products in a supermarket. Enables understanding of tasks to perform using the information conveyed by another colleague.
 
 Android Widgets/Apis/Libraries Used
